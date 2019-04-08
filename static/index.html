@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>A Multiplayer Game</title>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <style>
         canvas {
             width: 800px;
@@ -9,8 +11,12 @@
         }
     </style>
 </head>
+
 <body>
+<h1> <%= htmlWebpackPlugin.options.myPageHeader %> </h1>
+<h3>Welcome to the Awesome application</h3>
+
 <canvas id="canvas"></canvas>
+
 </body>
-<script src="game.js"></script>
 </html>

@@ -10,6 +10,7 @@ src/**/*.map
 src/**/*.jsx
 storybook-static
 .DS_Store
+build
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
